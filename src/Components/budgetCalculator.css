@@ -1,0 +1,381 @@
+:root {
+  --primary-green: #0EAE81;
+  --primary-navy: #122039;
+  --deep-navy: #0E1C35;
+
+  --accent-blue: #3B85DB;
+  --light-green: #B3D3D0;
+  --light-blue: #F1F9FC;
+
+  --section-bg: #E2EEF4;
+
+  --white: #FFFFFF;
+  --text-gray: #6A8197;
+
+  --coral: #F6A07A;
+  --red-pink: #CC5052;
+}
+
+.budget_calculator_page {
+  min-height: 100vh;
+  background-color: var(--light-blue);
+  padding: 40px 0;
+}
+
+.budget_calculator_container {
+  max-width: 1150px;
+}
+
+.budget_calculator_header {
+  margin-bottom: 30px;
+}
+
+.budget_calculator_header h1 {
+  color: var(--primary-navy);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.budget_calculator_header p {
+  color: var(--text-gray);
+  margin: 0;
+}
+
+.budget_calculator_card {
+  background-color: var(--white);
+  border: 1px solid #E2EAF0;
+  border-radius: 10px;
+  padding: 24px;
+  height: 100%;
+}
+
+.income-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.budget-label {
+  display: block;
+  color: var(--primary-navy);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.income-input-wrapper {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.currency-symbol {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  color: var(--primary-navy);
+  font-weight: 700;
+
+  z-index: 2;
+}
+
+.budget-input {
+  height: 42px;
+
+  padding-left: 38px;
+  padding-right: 14px;
+
+  background-color: #FFF8F7;
+
+  border: 1px solid #F6C5BE;
+  border-radius: 6px;
+
+  color: var(--primary-navy);
+  font-weight: 500;
+}
+
+.budget-input:focus {
+  border-color: var(--primary-green);
+  box-shadow: 0 0 0 3px rgba(14, 174, 129, 0.12);
+}
+
+.budget-input-error {
+  border-color: var(--red-pink);
+}
+
+.budget-button {
+  height: 42px;
+
+  background-color: var(--primary-green);
+  border: 1px solid var(--primary-green);
+
+  color: var(--white);
+
+  font-weight: 600;
+
+  border-radius: 6px;
+
+  transition: all 0.2s ease;
+}
+
+.budget-button:hover {
+  background-color: #0A966F;
+  border-color: #0A966F;
+  color: var(--white);
+}
+
+.budget-button:active {
+  transform: scale(0.98);
+}
+
+.budget-error {
+  color: var(--red-pink);
+  font-weight: 600;
+
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+
+.chart-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chart-wrapper {
+  position: relative;
+
+  width: 100%;
+  height: 250px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-cell {
+  cursor: pointer;
+  outline: none;
+
+  transition: opacity 0.3s ease;
+}
+
+.chart-cell:hover {
+  opacity: 0.8;
+}
+
+.chart-center-text {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  pointer-events: none;
+
+  text-align: center;
+}
+
+.chart-percentage {
+  color: var(--primary-navy);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.chart-name {
+  color: var(--text-gray);
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.breakdown-list {
+  width: 100%;
+}
+
+.breakdown-item {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease;
+}
+
+.breakdown-item:hover {
+  background-color: var(--light-blue);
+}
+
+.breakdown-active {
+  background-color: #F7FAFC;
+  border: 1px solid #E5EDF2;
+}
+
+.breakdown-name {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  color: var(--primary-navy);
+
+  font-weight: 600;
+}
+
+.breakdown-dot {
+  width: 11px;
+  height: 11px;
+
+  border-radius: 50%;
+
+  flex-shrink: 0;
+}
+
+.breakdown-values {
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+}
+
+.breakdown-percentage {
+  color: var(--primary-navy);
+  font-weight: 700;
+  min-width: 35px;
+}
+
+.breakdown-amount {
+  color: var(--text-gray);
+  font-weight: 600;
+  min-width: 80px;
+  text-align: right;
+}
+
+.budget-note {
+  color: var(--text-gray);
+
+  margin-top: 18px;
+  margin-bottom: 0;
+
+  padding-top: 12px;
+
+  border-top: 1px solid #E8EEF2;
+}
+
+@media (max-width: 991px) {
+
+  .budget_calculator_page {
+    padding: 30px 0;
+  }
+
+  .budget_calculator_card {
+    padding: 22px;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .budget_calculator_page {
+    padding: 20px 0;
+  }
+
+  .budget_calculator_container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .budget_calculator_header {
+    margin-bottom: 20px;
+  }
+
+  .budget_calculator_card {
+    padding: 18px;
+    border-radius: 9px;
+  }
+
+  .chart-wrapper {
+    height: 230px;
+  }
+
+  .breakdown-list {
+    margin-top: 5px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .budget_calculator_page {
+    padding: 15px 0;
+  }
+
+  .budget_calculator_container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .budget_calculator_card {
+    padding: 15px;
+  }
+
+  .chart-wrapper {
+    height: 210px;
+  }
+
+  .breakdown-item {
+    padding: 9px 6px;
+  }
+
+  .breakdown-name {
+    gap: 8px;
+  }
+
+  .breakdown-values {
+    gap: 10px;
+  }
+
+  .breakdown-percentage {
+    min-width: 30px;
+  }
+
+  .breakdown-amount {
+    min-width: 70px;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  .budget_calculator_card {
+    padding: 12px;
+  }
+
+  .chart-wrapper {
+    height: 190px;
+  }
+
+  .breakdown-values {
+    gap: 6px;
+  }
+
+  .breakdown-amount {
+    min-width: 65px;
+  }
+
+}

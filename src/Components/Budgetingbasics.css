@@ -1,0 +1,401 @@
+.bb-page {
+  --blue: #2563eb;
+  --blue-dark: #0b256d;
+  --green: #16a34a;
+  --green-dark: #15803d;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --border: #dbe3ea;
+  --background: #f8fafc;
+  --white: #ffffff;
+
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 24px;
+  box-sizing: border-box;
+  background: var(--background);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+}
+
+.bb-hero {
+  margin-bottom: 30px;
+}
+
+.bb-hero h1 {
+  margin: 0 0 8px;
+  color: green;
+  font-size: 32px;
+}
+
+.bb-sub {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.bb-page h2 {
+  margin: 0;
+  color: var(--blue);
+  font-size: 22px;
+}
+
+.bb-glossary {
+  margin-bottom: 40px;
+  border-top: 1px solid var(--border);
+}
+
+.bb-term {
+  border-bottom: 1px solid var(--border);
+}
+
+.bb-term-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 130px 1fr auto;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 10px;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+}
+
+.bb-term-row:hover {
+  background: #eff6ff;
+}
+
+.bb-term-name {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.bb-term-hint {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.bb-term-chevron {
+  color: var(--green);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bb-term-detail {
+  max-width: 700px;
+  margin: 0;
+  padding: 0 12px 16px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.bb-planner,
+.bb-quiz {
+  margin-bottom: 40px;
+  padding: 24px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.bb-planner-head {
+  margin-bottom: 20px;
+}
+
+.bb-planner-note {
+  max-width: 650px;
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.bb-income-field {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.bb-income-field input {
+  width: 180px;
+  padding: 9px 10px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.bb-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.bb-table th {
+  padding: 10px 8px;
+  border-bottom: 2px solid var(--blue);
+  color: var(--blue);
+  text-align: left;
+}
+
+.bb-table td {
+  padding: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.bb-table tfoot td {
+  font-weight: 700;
+}
+
+.bb-text-input,
+.bb-amount-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: #fff;
+  font-size: 14px;
+}
+
+.bb-amount-input {
+  max-width: 130px;
+}
+
+.bb-income-field input:focus,
+.bb-text-input:focus,
+.bb-amount-input:focus {
+  outline: 2px solid var(--blue);
+  outline-offset: 1px;
+}
+
+.bb-row-remove {
+  border: none;
+  background: transparent;
+  color: var(--blue);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.bb-row-remove:hover:not(:disabled) {
+  color: var(--green);
+}
+
+.bb-row-remove:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.bb-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: var(--blue);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.bb-btn:hover:not(:disabled) {
+  background: var(--blue-dark);
+}
+
+.bb-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.bb-btn-outline {
+  background: white;
+  color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.bb-btn-outline:hover {
+  background: #eff6ff;
+}
+
+.bb-add-row {
+  margin-top: 16px;
+}
+
+.bb-quiz-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.bb-quiz-progress {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.bb-quiz-question {
+  margin: 0 0 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bb-quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.bb-quiz-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 12px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.bb-quiz-option:hover {
+  border-color: var(--blue);
+  background: #eff6ff;
+}
+
+.bb-quiz-option-selected {
+  border-color: var(--blue);
+  background: #eff6ff;
+}
+
+.bb-quiz-option-correct {
+  border-color: var(--green);
+  background: #f0fdf4;
+}
+
+.bb-quiz-option-wrong {
+  border-color: var(--blue);
+  background: #eff6ff;
+}
+
+.bb-quiz-result {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.bb-result-correct {
+  margin: 0;
+  color: var(--green);
+  font-weight: 600;
+}
+
+.bb-result-wrong {
+  margin: 0;
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.bb-quiz-finished {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.bb-quiz-score {
+  margin: 0;
+  color: var(--green);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.bb-quiz-lastscore {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.bb-remaining-negative td {
+  color: var(--blue);
+}
+
+@media (max-width: 700px) {
+  .bb-page {
+    padding: 24px 16px;
+  }
+
+  .bb-hero h1 {
+    font-size: 28px;
+  }
+
+  .bb-planner,
+  .bb-quiz {
+    padding: 18px;
+  }
+
+  .bb-income-field {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .bb-income-field input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .bb-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .bb-term-row {
+    grid-template-columns: 1fr auto;
+  }
+
+  .bb-term-hint {
+    grid-column: 1 / -1;
+  }
+
+  .bb-quiz-head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .bb-page {
+    padding: 20px 12px;
+  }
+
+  .bb-planner,
+  .bb-quiz {
+    padding: 15px;
+  }
+
+  .bb-hero h1 {
+    font-size: 25px;
+  }
+
+  .bb-page h2 {
+    font-size: 19px;
+  }
+
+  .bb-table {
+    font-size: 13px;
+  }
+
+  .bb-table th,
+  .bb-table td {
+    padding: 7px 5px;
+  }
+}
+

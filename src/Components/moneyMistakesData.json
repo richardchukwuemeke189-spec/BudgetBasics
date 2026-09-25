@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Impulse Buying",
+    "description": "Buying something immediately without thinking about whether you actually need it.",
+    "scenario": "A student receives their monthly allowance and immediately buys new shoes because they are on sale. A few days later, they don't have enough money for transportation and food.",
+    "action": "Wait before making non-essential purchases. Give yourself 24 hours to decide whether you really need the item.",
+    "icon": "🛍️"
+  },
+  {
+    "id": 2,
+    "title": "Ignoring Small Expenses",
+    "description": "Small daily purchases can seem harmless, but they can add up to a large amount over a month.",
+    "scenario": "A student spends ₦1,000 on snacks and drinks almost every day. By the end of the month, they have spent around ₦30,000 without realizing it.",
+    "action": "Track your small daily expenses. Set a weekly limit for snacks, drinks, and other small purchases.",
+    "icon": "💸"
+  },
+  {
+    "id": 3,
+    "title": "Late Payments",
+    "description": "Forgetting bills or paying them late can result in additional charges and unnecessary financial stress.",
+    "scenario": "A student forgets to renew an important service before the due date and has to pay an extra fee to restore it.",
+    "action": "Keep track of payment dates. Use reminders on your phone or calendar so you know when payments are due.",
+    "icon": "📅"
+  },
+  {
+    "id": 4,
+    "title": "Unused Subscriptions",
+    "description": "Paying for subscriptions you rarely or never use wastes money that could be used for more important goals.",
+    "scenario": "A student subscribes to several streaming and learning platforms but only uses one of them. The unused subscriptions continue taking money every month.",
+    "action": "Review your subscriptions every month and cancel services you no longer use.",
+    "icon": "📱"
+  },
+  {
+    "id": 5,
+    "title": "Spending Without a Plan",
+    "description": "Spending money without deciding where it should go can make it difficult to control your finances.",
+    "scenario": "A student receives ₦100,000 but starts spending immediately without setting aside money for food, transportation, school expenses, or savings.",
+    "action": "Create a simple spending plan before using your income. Decide how much goes toward needs, wants, and savings.",
+    "icon": "📝"
+  }
+]

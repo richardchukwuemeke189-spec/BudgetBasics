@@ -1,0 +1,90 @@
+@keyframes bb-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bb-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bb-pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bb-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes bb-count-pulse {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.18);
+    color: var(--bb-teal-500);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.bb-reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s var(--bb-ease), transform 0.6s var(--bb-ease);
+}
+
+.bb-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bb-reveal-item {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.5s var(--bb-ease), transform 0.5s var(--bb-ease);
+  transition-delay: calc(var(--bb-delay, 0) * 80ms);
+}
+
+.bb-reveal-item.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bb-reveal,
+  .bb-reveal-item {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

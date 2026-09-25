@@ -1,0 +1,348 @@
+:root {
+  --primary-green: #0EAE81;
+  --primary-navy: #122039;
+  --deep-navy: #0E1C35;
+
+  --accent-blue: #3B85DB;
+  --light-green: #B3D3D0;
+  --light-blue: #F1F9FC;
+
+  --section-bg: #E2EEF4;
+
+  --white: #FFFFFF;
+  --text-gray: #6A8197;
+
+  --coral: #F6A07A;
+  --red-pink: #CC5052;
+}
+
+.savings_page {
+  min-height: 100vh;
+  background-color: var(--light-blue);
+  padding: 40px 0;
+}
+
+.savings_container {
+  max-width: 1150px;
+}
+
+.savings_header {
+  margin-bottom: 30px;
+}
+
+.savings_header h1 {
+  color: var(--primary-navy);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.savings_header p {
+  color: var(--text-gray);
+  margin: 0;
+}
+
+.savings_card {
+  height: 100%;
+  padding: 24px;
+
+  background-color: var(--white);
+
+  border: 1px solid #DCEAF1;
+  border-radius: 10px;
+
+  box-shadow: 0 2px 8px rgba(18, 32, 57, 0.04);
+}
+
+.savings_field {
+  margin-bottom: 15px;
+}
+
+.savings_field label {
+  display: block;
+
+  color: var(--primary-navy);
+  font-weight: 600;
+
+  margin-bottom: 6px;
+}
+
+.savings-input {
+  height: 42px;
+
+  border: 1px solid #DCE6ED;
+  border-radius: 6px;
+
+  color: var(--primary-navy);
+
+  background-color: var(--white);
+}
+
+.savings-input:focus {
+  border-color: var(--primary-green);
+
+  box-shadow: 0 0 0 3px rgba(14, 174, 129, 0.12);
+}
+
+.savings-button {
+  height: 42px;
+
+  margin-top: 2px;
+
+  background-color: var(--primary-green);
+  border: 1px solid var(--primary-green);
+
+  color: var(--white);
+
+  font-weight: 600;
+
+  border-radius: 6px;
+
+  transition: all 0.2s ease;
+}
+
+.savings-button:hover {
+  background-color: #0A966F;
+  border-color: #0A966F;
+
+  color: var(--white);
+}
+
+.savings-button:active {
+  transform: scale(0.98);
+}
+
+.savings-error {
+  color: var(--red-pink);
+
+  font-weight: 600;
+
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.result-heading p {
+  color: var(--primary-navy);
+
+  font-weight: 600;
+
+  margin-bottom: 4px;
+}
+
+.months-result {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  color: var(--primary-navy);
+}
+
+.months-result strong {
+  color: var(--accent-blue);
+
+  font-weight: 800;
+}
+
+.months-result span {
+  font-weight: 700;
+}
+
+.result-subtitle {
+  color: var(--text-gray) !important;
+
+  font-weight: 400 !important;
+
+  margin-top: 2px;
+}
+
+.progress-area {
+  position: relative;
+
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.savings-progress {
+  height: 18px;
+
+  background-color: #EDF3F6;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+.savings-progress-bar {
+  background-color: var(--primary-green);
+
+  border-radius: 10px;
+
+  transition: width 0.5s ease;
+}
+
+.progress-percentage {
+  position: absolute;
+
+  right: 4px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  color: var(--text-gray);
+
+  font-weight: 600;
+}
+
+.progress-info {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid #E5EDF2;
+}
+
+.progress-info strong {
+  color: var(--primary-navy);
+}
+
+.progress-info span {
+  color: var(--text-gray);
+
+  font-weight: 600;
+}
+
+.encouragement {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+  margin-top: 20px;
+
+  padding: 14px;
+
+  background-color: #EFFBF8;
+
+  border: 1px solid #CDEFE5;
+
+  border-radius: 7px;
+}
+
+.trophy {
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 32px;
+  height: 32px;
+}
+
+.encouragement strong {
+  display: block;
+
+  color: var(--primary-green);
+
+  margin-bottom: 2px;
+}
+
+.encouragement span {
+  color: var(--text-gray);
+}
+
+@media (max-width: 991px) {
+
+  .savings_page {
+    padding: 30px 0;
+  }
+
+  .savings_card {
+    padding: 22px;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .savings_page {
+    padding: 20px 0;
+  }
+
+  .savings_container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .savings_header {
+    margin-bottom: 20px;
+  }
+
+  .savings_card {
+    padding: 18px;
+    border-radius: 9px;
+  }
+
+  .result-card {
+    min-height: 300px;
+  }
+
+  .progress-info {
+    gap: 10px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .savings_page {
+    padding: 15px 0;
+  }
+
+  .savings_container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .savings_card {
+    padding: 15px;
+  }
+
+  .months-result {
+    gap: 8px;
+  }
+
+  .progress-info {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .encouragement {
+    gap: 10px;
+    padding: 12px;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  .savings_card {
+    padding: 12px;
+  }
+
+  .savings_field {
+    margin-bottom: 12px;
+  }
+
+}

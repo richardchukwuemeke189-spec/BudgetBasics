@@ -1,0 +1,33 @@
+:root {
+  --bb-navy-900: blue;
+  --bb-navy-700: rgb(17, 65, 148);
+  --bb-blue-500: #235bb0;
+  --bb-teal-900: #25966c;
+  --bb-teal-700: #1a9f6d;
+  --bb-teal-500: #2ecc91;
+  --bb-teal-50: #e9f8f0;
+  --bb-ink: #1c2723;
+  --bb-ink-soft: #5b6b66;
+  --bb-paper: #ffffff;
+  --bb-bg-soft: #f4f9f7;
+  --bb-line: #e4eae6;
+  --bb-coral: #d95a4a;
+  --bb-coral-50: #fbeceA;
+
+  /* elevation */
+  --bb-shadow-sm: 0 1px 2px rgba(18, 41, 79, 0.06);
+  --bb-shadow-md: 0 10px 26px rgba(18, 41, 79, 0.1);
+  --bb-shadow-lg: 0 24px 48px rgba(18, 41, 79, 0.14);
+
+  /* type */
+  --bb-font-display: "Poppins", "Segoe UI", sans-serif;
+  --bb-font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* radius */
+  --bb-radius-sm: 8px;
+  --bb-radius-md: 14px;
+  --bb-radius-lg: 20px;
+
+  /* motion */
+  --bb-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}

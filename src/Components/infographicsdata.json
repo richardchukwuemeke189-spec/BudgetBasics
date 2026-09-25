@@ -1,0 +1,146 @@
+[
+  {
+    "id": "budgeting-basics",
+    "title": "Budgeting Basics",
+    "topic": "Budgeting Basics",
+    "tagline": "Get started",
+    "thumbnailColor": "blue",
+    "icon": "/personal.png",
+    "altText": "Infographic explaining income, expenses, needs, wants and savings as the five building blocks of a budget",
+    "caption": "The five building blocks of every budget, explained simply.",
+    "description": "A budget is just a plan for where your money goes before it goes there. This infographic breaks a budget down into five parts: the income you receive, the expenses you're responsible for, the needs you must cover, the wants you'd like to cover, and the savings you set aside for later.",
+    "keyTakeaways": [
+      "Income is any money you receive: allowance, a part-time job, or gifts.",
+      "Needs come before wants when money is limited.",
+      "A simple monthly budget table can show every category at a glance.",
+      "Reviewing your budget monthly helps you catch mistakes early."
+    ],
+    "dateAdded": "2026-01-05"
+  },
+  {
+    "id": "needs-vs-wants",
+    "title": "Needs vs. Wants",
+    "topic": "Needs vs Wants",
+    "tagline": "Smart choices",
+    "thumbnailColor": "green",
+    "icon": "/needs.png",
+    "altText": "Infographic comparing examples of needs like food and shelter against wants like new phones and games",
+    "caption": "A side-by-side guide to telling needs and wants apart.",
+    "description": "Needs and wants can look similar until you ask one question: would I be okay without this for now? This infographic lines up common needs (food, shelter, transport, healthcare) next to common wants (new phones, brand clothes, gaming, travel) so the difference is easy to spot before you spend.",
+    "keyTakeaways": [
+      "A need keeps you fed, sheltered, healthy, or able to get to school or work.",
+      "A want makes life more enjoyable but isn't essential right now.",
+      "The same item can be a need or a want depending on your situation.",
+      "Cover your needs first, then decide which wants fit your budget."
+    ],
+    "dateAdded": "2026-01-08"
+  },
+  {
+    "id": "fifty-thirty-twenty",
+    "title": "The 50/30/20 Rule",
+    "topic": "50/30/20 Rule",
+    "tagline": "Money management",
+    "thumbnailColor": "blue",
+    "icon": "/growth.png",
+    "altText": "Donut chart infographic splitting income into 50 percent needs, 30 percent wants and 20 percent savings",
+    "caption": "One simple ratio for splitting any income you receive.",
+    "description": "The 50/30/20 rule is a starting point, not a strict law: put roughly 50% of your income toward needs, 30% toward wants, and 20% toward savings. This infographic shows the split as a donut chart so you can see how a real monthly income breaks down.",
+    "keyTakeaways": [
+      "50% for needs: rent, food, transport, essential bills.",
+      "30% for wants: entertainment, eating out, hobbies.",
+      "20% for savings: emergencies, goals, and future plans.",
+      "Treat the ratio as an educational estimate, not a fixed rule."
+    ],
+    "dateAdded": "2026-01-10"
+  },
+  {
+    "id": "savings-goals",
+    "title": "Savings Goals",
+    "topic": "Savings Goals",
+    "tagline": "Build your future",
+    "thumbnailColor": "green",
+    "icon": "/saving.png",
+    "altText": "Infographic showing how to turn a savings target into a monthly contribution and a timeline",
+    "caption": "Turning a goal amount into a monthly plan you can follow.",
+    "description": "A savings goal becomes real once you know three numbers: how much you want, how much you already have, and how much you can add each month. This infographic walks through that math and shows how a progress bar can keep you motivated as you get closer.",
+    "keyTakeaways": [
+      "Months needed = (target amount - current savings) / monthly contribution.",
+      "Small, consistent contributions add up faster than waiting to save a lot at once.",
+      "A visual progress bar makes long-term goals feel more reachable.",
+      "Naming your goal (like 'laptop fund') makes it easier to stay committed."
+    ],
+    "dateAdded": "2026-01-12"
+  },
+  {
+    "id": "expense-planner",
+    "title": "Expense Planner",
+    "topic": "Expense Planner",
+    "tagline": "Track & control",
+    "thumbnailColor": "blue",
+    "icon": "/online.png",
+    "altText": "Infographic showing a table of dated expenses by category with a running total and remaining balance",
+    "caption": "How logging every expense keeps your balance honest.",
+    "description": "An expense planner is a simple table: date, category, description, and amount. This infographic shows how logging expenses as they happen lets you total them automatically and see exactly what's left of your budget for the month.",
+    "keyTakeaways": [
+      "Log expenses as they happen, not from memory at month-end.",
+      "Group expenses by category to spot where money actually goes.",
+      "Total expenses subtracted from income gives your remaining balance.",
+      "Session-only tracking is fine for practice; real budgets need consistency."
+    ],
+    "dateAdded": "2026-01-15"
+  },
+  {
+    "id": "money-mistakes",
+    "title": "Common Money Mistakes",
+    "topic": "Money Mistakes",
+    "tagline": "Avoid pitfalls",
+    "thumbnailColor": "green",
+    "icon": "/pending.png",
+    "altText": "Infographic listing common money mistakes such as spending more than you earn and not saving early",
+    "caption": "Five habits that quietly drain a budget, and their fixes.",
+    "description": "Most money trouble comes from a handful of repeatable habits rather than one big event. This infographic pairs five common mistakes, like spending more than you earn or relying on a single income source, with a practical fix for each.",
+    "keyTakeaways": [
+      "Spending more than you earn is the fastest way to fall behind.",
+      "Waiting to save 'until there's extra' usually means never saving.",
+      "Small, frequent purchases add up more than people expect.",
+      "Planning ahead for emergencies prevents them from becoming crises."
+    ],
+    "dateAdded": "2026-01-18"
+  },
+  {
+    "id": "emergency-fund",
+    "title": "Emergency Funds",
+    "topic": "Money Mistakes",
+    "tagline": "Prepare ahead",
+    "thumbnailColor": "blue",
+    "icon": "/security.png",
+    "altText": "Infographic explaining what an emergency fund is and how many months of expenses it should cover",
+    "caption": "Why a small cushion of savings changes everything.",
+    "description": "An emergency fund is money set aside only for genuine surprises: a lost phone, a medical visit, an unexpected bill. This infographic explains why even a small cushion reduces stress and stops one bad week from turning into a bad month.",
+    "keyTakeaways": [
+      "Start small: even a modest amount set aside counts as a start.",
+      "Keep the fund separate from everyday spending money.",
+      "Only use it for genuine emergencies, not planned wants.",
+      "Refill it as soon as possible after you dip into it."
+    ],
+    "dateAdded": "2026-01-20"
+  },
+  {
+    "id": "smart-spending",
+    "title": "Smart Spending Habits",
+    "topic": "Needs vs Wants",
+    "tagline": "Everyday choices",
+    "thumbnailColor": "green",
+    "icon": "/rain.png",
+    "altText": "Infographic with everyday tips for spending more intentionally, like waiting before big purchases",
+    "caption": "Small everyday habits that make spending more intentional.",
+    "description": "Smart spending isn't about never spending, it's about pausing before you do. This infographic collects everyday habits, like waiting 24 hours before a non-essential purchase or comparing prices, that help money go further without feeling restrictive.",
+    "keyTakeaways": [
+      "Wait 24 hours before an unplanned purchase over a set amount.",
+      "Compare prices across at least two places before buying.",
+      "Ask 'do I need this, or do I want this right now?' before checkout.",
+      "Track how small purchases add up over a full month."
+    ],
+    "dateAdded": "2026-01-22"
+  }
+]
