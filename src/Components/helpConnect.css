@@ -341,7 +341,7 @@
   padding: 12px 28px;
   border-radius: 12px;
   background: linear-gradient(135deg,var(--teal),#13c39c);
-  color: #fff!important;
+  color: black !important;
   font-weight: 600;
   box-shadow: 0 6px 16px #0f9f7f44;
   transition: .2s;

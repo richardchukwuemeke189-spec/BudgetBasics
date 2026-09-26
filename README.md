@@ -193,7 +193,7 @@ The BudgetBasics interface was designed in Figma before implementation. The desi
 ### Figma UI/UX Design
 
 **Figma Design Link:**
-**[PASTE YOUR FIGMA LINK HERE]**
+**https://www.figma.com/design/JX9TsGMigB1fBhNggTjcZ4/BudgetBasics-UI-Design?node-id=0-1&p=f&t=WAYOdSZ1UdTkAfnx-0**
 
 The Figma file contains the main UI/UX designs and visual references used during development.
 
